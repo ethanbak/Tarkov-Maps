@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tarkov Map Routes</title>
+    <link rel="stylesheet" href="styles.css">
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background: #333;
+            color: white;
+            padding: 1rem 0;
+            text-align: center;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+        }
+        section {
+            padding: 2rem;
+            background: white;
+            margin: 1rem auto;
+            max-width: 900px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        img {
+            width: 100%;
+            height: auto;
+        }
+        footer {
+            text-align: center;
+            padding: 1rem;
+            background: #333;
+            color: white;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Escape from Tarkov - Map Routes</h1>
+        <nav>
+            <ul>
+                <li><a href="#customs">Customs</a></li>
+                <li><a href="#interchange">Interchange</a></li>
+                <li><a href="#shoreline">Shoreline</a></li>
+                <li><a href="#reserve">Reserve</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section id="customs">
+            <h2>Customs</h2>
+            <img src="images/customs_map.jpg" alt="Customs Map">
+            <p><strong>Best Route:</strong> Start at the western spawn point near Big Red, move through Dorms for high-value loot, and exit through the ZB-1011 extraction point.</p>
+        </section>
+
+        <section id="interchange">
+            <h2>Interchange</h2>
+            <img src="images/interchange_map.jpg" alt="Interchange Map">
+            <p><strong>Best Route:</strong> Enter through the front entrance, loot Techlight and Mantis, and exit through Emercom checkpoint.</p>
+        </section>
+
+        <section id="shoreline">
+            <h2>Shoreline</h2>
+            <img src="images/shoreline_map.jpg" alt="Shoreline Map">
+            <p><strong>Best Route:</strong> Move from the southern spawn, loot the Resort, and extract at Tunnel or Road to Customs.</p>
+        </section>
+
+        <section id="reserve">
+            <h2>Reserve</h2>
+            <img src="images/reserve_map.jpg" alt="Reserve Map">
+            <p><strong>Best Route:</strong> Start at the underground bunker, move to Black Bishop, and extract at the D-2 Bunker or Cliff Descent.</p>
+        </section>
+    </main>
+
+    <footer>
+        <p>&copy; 2024 Tarkov Routes. All rights reserved.</p>
+    </footer>
+
+    <section id="deploy-instructions">
+        <h2>How to Deploy the Site on GitHub Pages</h2>
+        <ol>
+            <li>Create a GitHub repository and name it something like 'tarkov-map-routes'.</li>
+            <li>Inside the repository, upload the HTML file, along with 'styles.css' and an 'images' folder containing the map images.</li>
+            <li>In GitHub, go to 'Settings' of your repository.</li>
+            <li>Scroll down to 'Pages' in the left-hand sidebar.</li>
+            <li>Under 'Branch', select 'main' or 'master' and then click on '/' (root) for the directory.</li>
+            <li>Click 'Save'. GitHub will provide a link where your site will be published (usually something like 'https://yourusername.github.io/tarkov-map-routes').</li>
+            <li>Refresh after a few minutes to see your deployed website live!</li>
+        </ol>
+    </section>
+</body>
+</html>
